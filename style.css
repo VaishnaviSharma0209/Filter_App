@@ -1,0 +1,15 @@
+.btn-info{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: colour;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colour{
+    from{box-shadow: 1px 1px 38px deeppink;}
+    to{box-shadow: 1px 1px 38px red;}
+}
